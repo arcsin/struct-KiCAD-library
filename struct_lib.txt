@@ -3,15 +3,145 @@
 *ver 0.1 
 ************************************
 Analog ICs
+	Operational Amplifiers
+		Single
+		Dual
+		Triple
+		Octal
+		Quad
 	Amplifiers
 	Comparators
 	Display Drivers
 	Filters
+	Sample & Hold; входные усилители
 	Miscellaneous
 	Multiplexers
 	Regulators
 	Timers
 	Voltage References
+Connectors
+	Audio
+	D-Type
+	DIL
+	DIL Headers
+	FFC/FPC Connectors
+	Header Blocks
+	Headers/Receptacles
+	IDC Headers
+	Miscellaneous
+	PCB Transfer
+	PCB Transition Connectors
+	Power Crimp
+	RF/Microwave
+	Ribbon Cable
+	Wire Trap Connectors
+	SIL Headers
+	Stack
+	Telecoms
+	Terminal Blocks
+	Transition Headers
+	USB
+	Wire Crimp
+Data Converters
+	A/D Converters
+	D/A Converters
+Sensors	
+	Current Sensors
+	Light Sensors
+	Capacitance
+	Accelerometer
+	Gyro
+	Temperature Sensors
+	Humidity/Temperature
+	Light 
+	Pressure
+Devices
+	Resistor
+	Capasitor
+	Electromechanical
+Memory ICs
+	I2C Memories
+	Memory Cards
+	SPI Memories
+	UNI/O Memories
+Microprocessor ICs
+	68000 Family
+	8051 Family
+	LPC Family
+		ARM7
+		ARM9
+		Cortex-M0
+		Cortex-M3
+	STM8L
+	STM32
+	AVR Family
+		Classic
+		Tiny
+		Mega
+		MegaX
+	BASIC Stamp Modules
+	HC11 Family
+	MSP430 Family
+	PIC Family
+		PIC10
+		PIC12
+		PIC16
+		PIC18
+		PIC24
+		PICAXE ICs
+		DSPIC33
+	Z80 Family
+	i86 Family
+Miscellaneous
+	Quartz Crystals
+	Digital potentiometers
+	Supply voltage supervisor
+	Power supply monitor
+Interfaces
+Optoelectronics
+	14-Segment Displays
+	16-Segment Displays
+	7-Segment Displays
+	Alphanumeric LCDs
+	Bargraph Displays
+	Dot Matrix Displays
+	Graphical LCDs
+	LCD Controllers
+	LCD Panels Displays
+	LEDs
+	Lamps
+	Optocouplers
+	Serial LCDs
+Switches & Relays
+	Relays (Generic)
+	Relays (Specific)
+	Switches
+Diodes
+	Bridge Rectifiers
+	Generic
+	Tunnel
+	Rectifiers
+	Schottky
+	Switching
+	Transient Suppressors
+	Varicap
+	Zener
+Switching Devices
+	DIACs
+	SCRs
+	TRIACs
+Transistors
+	Bipolar
+	IGBT
+	JFET
+	MOSFET
+	RF Power LDMOS
+	RF Power VDMOS
+	Unijunction
+Power
+	Stepper drivers
+	TOPSwitch
+	IRAM
 CMOS 4000 series
 	Adders
 	Buffers & Drivers
@@ -29,344 +159,114 @@ CMOS 4000 series
 	Phase-Locked-Loops (PLLs)
 	Registers
 	Signal Switches
-Capacitors
-	Audio Grade Axial
-	Axial Lead Polypropene
-	Axial Lead Polystyrene
-	Ceramic Disc
-	Decoupling Disc
-	Electrolytic Aluminum
-	Generic
-	High Temp Radial
-	High Temperature Axial Electrolytic
-	Metallised Polyester Film
-	Metallised Polypropene Film
-	Metallised polypropene
-	Mica RF Specific
-	Miniture Electrolytic
-	Multilayer Ceramic
-	Multilayer Ceramic C0G
-	Multilayer Ceramic NPO
-	Multilayer Ceramic X5R
-	Multilayer Ceramic X7R
-	Multilayer Ceramic Y5V
-	Multilayer Ceramic Z5U
-	Multilayer Metallised Polyester Film
-	Mylar Film
-	Nickel Barrier
-	Non Polarised
-	Poly Film Chip
-	Polyester Layer
-	Radial Electrolytic
-	Resin Dipped
-	Tantalum Bead
-	Tantalum SMD
-	Thin film
-	VX Axial Electrolytic
-	Variable
-Connectors
-	Audio
-	D-Type
-	DIL
-	DIL Headers
-	FFC/FPC Connectors
-	Header Blocks
-	Headers/Receptacles
-	IDC Headers
-	Miscellaneous
-	PCB Transfer
-	PCB Transition Connectors
-	Power Crimp
-	RF/Microwave
-	Ribbon Cable
-	Ribbon Cable/Wire Trap Connectors
-	SIL
-	SIL Headers
-	Stack
-	Telecoms
-	Terminal Blocks
-	Transition Headers
-	USB
-	USB for PCB Mounting
-	Wire Crimp
-Data Converters
-	A/D Converters
-	D/A Converters
-	Light Sensors
-	Sample & Hold
-	Temperature Sensors
-Diodes
-	Bridge Rectifiers
-	Generic
-	Generic,Bridge Rectifiers
-	Generic,Schottky
-	Generic,Tunnel
-	Generic,Zener
-	Rectifiers
-	Schottky
-	Switching
-	Transient Suppressors
-	Varicap
-	Zener
-Electromechanical
-Inductors
-	Fixed Inductors
-	Generic
-	Multilayer Chip Inductors
-	SMT Inductors
-	Surface Mount Inductors
-	Tight Tolerance RF inductor
-	Transformers
-Integrated Circuits
-	1.5mm Pitch BGAs
-	2.5mm Pitch BGAs
-	50th Pitch BGAs
-	50th Pitch LGAs
-	Ceramic Flat Packs
-	Ceramic Leadless Chip Carriers
-	Ceramic Quad Flat Packs
-	Dual Inline Packages
-	Leadless Chip Carriers
-	Mini Small Outline Package
-	Miscellaneous
-	Plastic Leaded Chip Carriers
-	Plastic Quad Flat Packs
-	Quad Flat Non-leaded Packages
-	Quad Flat Packs
-	Shrink Quad Flat Packs
-	Small Outline IC Packages
-	Small Outline J-lead Packages
-	Small Outline Non-leaded Packages
-	Small Outline Packages
-	Thin Quad Flat Packs
-	Thin Small Outline Packages
-Mechanics
-Memory ICs
-	I2C Memories
-	Memory Cards
-	SPI Memories
-	UNI/O Memories
-Microprocessor ICs
-	68000 Family
-	8051 Family
-	ARM Family
-	AVR Family
-	BASIC Stamp Modules
-	DSPIC33 Family
-	HC11 Family
-	HC11 Family,Peripherals
-	MSP430 Family
-	PIC10 Family
-	PIC12 Family
-	PIC16 Family
-	PIC18 Family
-	PIC24 Family
-	Peripherals
-	Z80 Family
-	Z80 Family,Peripherals
-	i86 Family
-Miscellaneous
-	Quartz Crystals
-Modelling Primitives
-	Analog (SPICE)
-	Digital (Buffers & Gates)
-	Digital (Combinational)
-	Digital (Miscellaneous)
-	Digital (Sequential)
-	Mixed Mode
-	PLD Elements
-Operational Amplifiers
-	Dual
-	Ideal
-	Macromodel
-	Octal
-	Quad
-	Single
-	Triple
-Optoelectronics
-	14-Segment Displays
-	16-Segment Displays
-	7-Segment Displays
-	Alphanumeric LCDs
-	Bargraph Displays
-	Dot Matrix Displays
-	Graphical LCDs
-	LCD Controllers
-	LCD Panels Displays
-	LEDs
-	Lamps
-	Optocouplers
-	Serial LCDs
-PICAXE
-	PICAXE ICs
-Resistors
-	0.6W Metal Film
-	10 Watt Wirewound
-	2 Watt Metal Film
-	3 Watt Wirewound
-	7 Watt Wirewound
-	Chip Resistor
-	Chip Resistor 1/10W 0.1%
-	Chip Resistor 1/10W 1%
-	Chip Resistor 1/10W 5%
-	Chip Resistor 1/16W 0.1%
-	Chip Resistor 1/16W 1%
-	Chip Resistor 1/16W 5%
-	Chip Resistor 1/2W 5%
-	Chip Resistor 1/4W 1%
-	Chip Resistor 1/4W 10%
-	Chip Resistor 1/4W 5%
-	Chip Resistor 1/8W 0.05%
-	Chip Resistor 1/8W 0.1%
-	Chip Resistor 1/8W 0.25%
-	Chip Resistor 1/8W 0.5%
-	Chip Resistor 1/8W 1%
-	Chip Resistor 1/8W 5%
-	Chip Resistor 1W 5%
-	Chip Resistor anti-surge 5%
-	Generic
-	High Voltage
-	NTC
-	Resistor Network
-	Resistor Packs
-	Variable
-	Varistors
-Switches & Relays
-	Relays (Generic)
-	Relays (Specific)
-	Switches
-Switching Devices
-	DIACs
-	Generic,DIACs
-	Generic,SCRs
-	Generic,TRIACs
-	SCRs
-	TRIACs
-TTL 74 series
-	Adders
-	Buffers & Drivers
-	Comparators
-	Counters
-	Decoders
-	Encoders
-	Flip-Flops & Latches
-	Gates & Inverters
-	Misc. Logic
-	Multiplexers
-	Multivibrators
-	Registers
-TTL 74ALS series
-	Buffers & Drivers
-	Comparators
-	Counters
-	Decoders
-	Flip-Flops & Latches
-	Gates & Inverters
-	Misc. Logic
-	Multiplexers
-	Registers
-	Transceivers
-TTL 74AS series
-	Buffers & Drivers
-	Counters
-	Decoders
-	Flip-Flops & Latches
-	Gates & Inverters
-	Misc. Logic
-	Multiplexers
-	Registers
-	Transceivers
-TTL 74F series
-	Adders
-	Buffers & Drivers
-	Comparators
-	Counters
-	Decoders
-	Flip-Flops & Latches
-	Gates & Inverters
-	Multiplexers
-	Registers
-	Transceivers
-TTL 74HC series
-	Adders
-	Buffers & Drivers
-	Comparators
-	Counters
-	Decoders
-	Encoders
-	Flip-Flops & Latches
-	Gates & Inverters
-	Misc. Logic
-	Multiplexers
-	Multivibrators
-	Phase-Locked-Loops (PLLs)
-	Registers
-	Signal Switches
-	Transceivers
-TTL 74HCT series
-	Adders
-	Buffers & Drivers
-	Comparators
-	Counters
-	Decoders
-	Encoders
-	Flip-Flops & Latches
-	Gates & Inverters
-	Misc. Logic
-	Multiplexers
-	Multivibrators
-	Phase-Locked-Loops (PLLs)
-	Registers
-	Signal Switches
-	Transceivers
-TTL 74LS series
-	Adders
-	Buffers & Drivers
-	Comparators
-	Counters
-	Decoders
-	Encoders
-	Flip-Flops & Latches
-	Frequency Dividers & Timers
-	Gates & Inverters
-	Misc. Logic
-	Multiplexers
-	Multivibrators
-	Oscillators
-	Registers
-	Transceivers
-TTL 74S series
-	Adders
-	Buffers & Drivers
-	Comparators
-	Counters
-	Decoders
-	Flip-Flops & Latches
-	Gates & Inverters
-	Misc. Logic
-	Multiplexers
-	Oscillators
-	Registers
+TTL
+	74 series
+		Adders
+		Buffers & Drivers
+		Comparators
+		Counters
+		Decoders
+		Encoders
+		Flip-Flops & Latches
+		Gates & Inverters
+		Misc. Logic
+		Multiplexers
+		Multivibrators
+		Registers
+	74ALS series
+		Buffers & Drivers
+		Comparators
+		Counters
+		Decoders
+		Flip-Flops & Latches
+		Gates & Inverters
+		Misc. Logic
+		Multiplexers
+		Registers
+		Transceivers
+	74AS series
+		Buffers & Drivers
+		Counters
+		Decoders
+		Flip-Flops & Latches
+		Gates & Inverters
+		Misc. Logic
+		Multiplexers
+		Registers
+		Transceivers
+	74F series
+		Adders
+		Buffers & Drivers
+		Comparators
+		Counters
+		Decoders
+		Flip-Flops & Latches
+		Gates & Inverters
+		Multiplexers
+		Registers
+		Transceivers
+	74HC series
+		Adders
+		Buffers & Drivers
+		Comparators
+		Counters
+		Decoders
+		Encoders
+		Flip-Flops & Latches
+		Gates & Inverters
+		Misc. Logic
+		Multiplexers
+		Multivibrators
+		Phase-Locked-Loops (PLLs)
+		Registers
+		Signal Switches
+		Transceivers
+	74HCT series
+		Adders
+		Buffers & Drivers
+		Comparators
+		Counters
+		Decoders
+		Encoders
+		Flip-Flops & Latches
+		Gates & Inverters
+		Misc. Logic
+		Multiplexers
+		Multivibrators
+		Phase-Locked-Loops (PLLs)
+		Registers
+		Signal Switches
+		Transceivers
+	74LS series
+		Adders
+		Buffers & Drivers
+		Comparators
+		Counters
+		Decoders
+		Encoders
+		Flip-Flops & Latches
+		Frequency Dividers & Timers
+		Gates & Inverters
+		Misc. Logic
+		Multiplexers
+		Multivibrators
+		Oscillators
+		Registers
+		Transceivers
+	74S series
+		Adders
+		Buffers & Drivers
+		Comparators
+		Counters
+		Decoders
+		Flip-Flops & Latches
+		Gates & Inverters
+		Misc. Logic
+		Multiplexers
+		Oscillators
+		Registers
 Thermionic Valves
 	Diodes
 	Pentodes
 	Tetrodes
 	Triodes
-	Triodes,Pentodes
-Transducers
-	Humidity/Temperature
-	Light Dependent Resistor (LDR)
-	Pressure
-	Temperature
-Transistors
-	Bipolar
-	Generic,Bipolar
-	Generic,JFET
-	Generic,MOSFET
-	Generic,Unijunction
-	IGBT
-	JFET
-	MOSFET
-	RF Power LDMOS
-	RF Power VDMOS
-	Unijunction

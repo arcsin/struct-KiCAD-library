@@ -1,24 +1,79 @@
 ************************************
-*ArcSin, 2012.  struct for KiCAD lib
+*ArcSin, 2012.  struct for KiCAD library mod
 *ver 0.1 
 ************************************
+Connectors
+	Audio
+	D-Type
+	DIL Headers
+	Header Blocks
+	PCB Transition Connectors
+	Power Crimp
+	RF/Microwave
+	Ribbon Cable
+	SIL Headers
+	Stack
+	Telecoms
+	Terminal Blocks
+	Transition Headers
+	USB
+	Wire Crimp
 Discrete Components
-	Bridges
+	Axial Capacitors
+	Axial Electrolytics
+	Radial Capacitors
+	Radial Electrolytics
 	Capacitors
+	Tantalum Capacitors
+	Non-polarized Capacitors
+	Polarized Capacitors
+	Bridges
+	Electrolytics
 	Crystals
 	Diodes
-	Electrolytics
 	Fuses
 	General
 	Inductors
 	Light Emmitting Diodes
-	Non-polarized Capacitors
 	Oscillators
-	Polarized Capacitors
 	Rectifiers                             
 	Resistors
 	Small Outline Transistors
-	Tantalum Capacitors
 	Transistors
 	Trimmers
 	Varistors
+Integrated Circuits
+	1.5mm Pitch BGAs
+	2.5mm Pitch BGAs
+	50th Pitch BGAs
+	50th Pitch LGAs
+	Ceramic Flat Packs
+	Ceramic Leadless Chip Carriers
+	Ceramic Quad Flat Packs
+	Dual Inline Packages
+	Leadless Chip Carriers
+	Mini Small Outline Package
+	Miscellaneous
+	Plastic Leaded Chip Carriers
+	Plastic Quad Flat Packs
+	Quad Flat Non-leaded Packages
+	Quad Flat Packs
+	Shrink Quad Flat Packs
+	Small Outline IC Packages
+	Small Outline J-lead Packages
+	Small Outline Non-leaded Packages
+	Small Outline Packages
+	Thin Quad Flat Packs
+	Thin Small Outline Packages
+Miscellaneous
+	14-Segment Displays
+	16-Segment Displays
+	7-Segment Displays
+	Alphanumeric LCDs
+	Bargraph Displays
+	Dot Matrix Displays
+	Graphical LCDs
+	LEDs
+	Lamps
+	Optocouplers
+	Relay

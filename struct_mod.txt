@@ -1,0 +1,24 @@
+************************************
+*ArcSin, 2012.  struct for KiCAD lib
+*ver 0.1 
+************************************
+Discrete Components
+	Bridges
+	Capacitors
+	Crystals
+	Diodes
+	Electrolytics
+	Fuses
+	General
+	Inductors
+	Light Emmitting Diodes
+	Non-polarized Capacitors
+	Oscillators
+	Polarized Capacitors
+	Rectifiers                             
+	Resistors
+	Small Outline Transistors
+	Tantalum Capacitors
+	Transistors
+	Trimmers
+	Varistors

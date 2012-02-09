@@ -1,6 +1,6 @@
 ************************************
 *ArcSin, 2012.  struct for KiCAD library mod
-*ver 0.1 
+*ver 0.2 
 ************************************
 Connectors
 	Audio

@@ -1,14 +1,14 @@
 ************************************
 *ArcSin, 2012.  struct for KiCAD lib
-*ver 0.1 
+*ver 0.2 
 ************************************
 Analog ICs
 	Operational Amplifiers
 		Single
 		Dual
 		Triple
-		Octal
 		Quad
+		Octal
 	Amplifiers
 	Comparators
 	Display Drivers
@@ -18,33 +18,15 @@ Analog ICs
 	Multiplexers
 	Regulators
 	Timers
-	Voltage References
+	Voltage References; ИОН
 Connectors
 	Audio
 	D-Type
 	DIL
-	DIL Headers
-	FFC/FPC Connectors
-	Header Blocks
-	Headers/Receptacles
-	IDC Headers
-	Miscellaneous
-	PCB Transfer
-	PCB Transition Connectors
-	Power Crimp
-	RF/Microwave
-	Ribbon Cable
-	Wire Trap Connectors
-	SIL Headers
-	Stack
-	Telecoms
-	Terminal Blocks
-	Transition Headers
+	SIL
 	USB
-	Wire Crimp
-Data Converters
-	A/D Converters
-	D/A Converters
+	Card socket;держатели карт
+	RJ; RJ-9, RJ-11, RJ-12, RJ-45, RJ-50
 Sensors	
 	Current Sensors
 	Light Sensors
@@ -55,10 +37,19 @@ Sensors
 	Humidity/Temperature
 	Light 
 	Pressure
-Devices
+Discrete
 	Resistor
 	Capasitor
-	Electromechanical
+	Transistors
+	Diodes
+	DIACs
+	SCRs; тринистор
+	TRIACs
+	Inductor
+	Transformer
+	Quartz Crystals
+	Fuse
+Electromechanical
 Memory ICs
 	I2C Memories
 	Memory Cards
@@ -68,13 +59,16 @@ Microprocessor ICs
 	68000 Family
 	8051 Family
 	LPC Family
-		ARM7
-		ARM9
-		Cortex-M0
-		Cortex-M3
+		LPC700
+		LPC900
+		LPC1000
+		LPC2000
+		LPC3000
+		LPC4000
+		LH7
 	STM8L
 	STM32
-	AVR Family
+	Atmel
 		Classic
 		Tiny
 		Mega
@@ -93,7 +87,6 @@ Microprocessor ICs
 	Z80 Family
 	i86 Family
 Miscellaneous
-	Quartz Crystals
 	Digital potentiometers
 	Supply voltage supervisor
 	Power supply monitor
@@ -112,37 +105,14 @@ Optoelectronics
 	Lamps
 	Optocouplers
 	Serial LCDs
-Switches & Relays
+Relays
 	Relays (Generic)
 	Relays (Specific)
+Switches
 	Switches
-Diodes
-	Bridge Rectifiers
-	Generic
-	Tunnel
-	Rectifiers
-	Schottky
-	Switching
-	Transient Suppressors
-	Varicap
-	Zener
-Switching Devices
-	DIACs
-	SCRs
-	TRIACs
-Transistors
-	Bipolar
-	IGBT
-	JFET
-	MOSFET
-	RF Power LDMOS
-	RF Power VDMOS
-	Unijunction
 Power
-	Stepper drivers
-	TOPSwitch
-	IRAM
-CMOS 4000 series
+	Regulators	
+Logic
 	Adders
 	Buffers & Drivers
 	Comparators
@@ -159,114 +129,12 @@ CMOS 4000 series
 	Phase-Locked-Loops (PLLs)
 	Registers
 	Signal Switches
-TTL
-	74 series
-		Adders
-		Buffers & Drivers
-		Comparators
-		Counters
-		Decoders
-		Encoders
-		Flip-Flops & Latches
-		Gates & Inverters
-		Misc. Logic
-		Multiplexers
-		Multivibrators
-		Registers
-	74ALS series
-		Buffers & Drivers
-		Comparators
-		Counters
-		Decoders
-		Flip-Flops & Latches
-		Gates & Inverters
-		Misc. Logic
-		Multiplexers
-		Registers
-		Transceivers
-	74AS series
-		Buffers & Drivers
-		Counters
-		Decoders
-		Flip-Flops & Latches
-		Gates & Inverters
-		Misc. Logic
-		Multiplexers
-		Registers
-		Transceivers
-	74F series
-		Adders
-		Buffers & Drivers
-		Comparators
-		Counters
-		Decoders
-		Flip-Flops & Latches
-		Gates & Inverters
-		Multiplexers
-		Registers
-		Transceivers
-	74HC series
-		Adders
-		Buffers & Drivers
-		Comparators
-		Counters
-		Decoders
-		Encoders
-		Flip-Flops & Latches
-		Gates & Inverters
-		Misc. Logic
-		Multiplexers
-		Multivibrators
-		Phase-Locked-Loops (PLLs)
-		Registers
-		Signal Switches
-		Transceivers
-	74HCT series
-		Adders
-		Buffers & Drivers
-		Comparators
-		Counters
-		Decoders
-		Encoders
-		Flip-Flops & Latches
-		Gates & Inverters
-		Misc. Logic
-		Multiplexers
-		Multivibrators
-		Phase-Locked-Loops (PLLs)
-		Registers
-		Signal Switches
-		Transceivers
-	74LS series
-		Adders
-		Buffers & Drivers
-		Comparators
-		Counters
-		Decoders
-		Encoders
-		Flip-Flops & Latches
-		Frequency Dividers & Timers
-		Gates & Inverters
-		Misc. Logic
-		Multiplexers
-		Multivibrators
-		Oscillators
-		Registers
-		Transceivers
-	74S series
-		Adders
-		Buffers & Drivers
-		Comparators
-		Counters
-		Decoders
-		Flip-Flops & Latches
-		Gates & Inverters
-		Misc. Logic
-		Multiplexers
-		Oscillators
-		Registers
-Thermionic Valves
-	Diodes
-	Pentodes
-	Tetrodes
-	Triodes
+	Transceivers
+Vacuum tubes
+	Gas tube; газонаполненые вакуумные приборы 
+	Microwave tubes; свч 
+	Thermionic Valves
+		Diodes
+		Pentodes
+		Tetrodes
+		Triodes
